@@ -1,0 +1,8 @@
+use('storednb');
+
+db.products.insertOne({
+  name: 'iphone2',
+  price: '10002',
+  description: 'iphone is a smartphone',
+  category: 'smartphone'
+})
